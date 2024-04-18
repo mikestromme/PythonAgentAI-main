@@ -2,3 +2,4 @@ venv_agentai/
 .env
 .vscode
 .venv/
+venv_rag/
