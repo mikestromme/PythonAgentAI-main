@@ -2,7 +2,6 @@ aiohttp==3.9.3
 aiosignal==1.3.1
 annotated-types==0.6.0
 anyio==4.2.0
-async-timeout==4.0.3
 attrs==23.2.0
 certifi==2024.2.2
 charset-normalizer==3.3.2
@@ -12,7 +11,6 @@ dataclasses-json==0.6.4
 Deprecated==1.2.14
 dirtyjson==1.0.8
 distro==1.9.0
-exceptiongroup==1.2.0
 frozenlist==1.4.1
 fsspec==2024.2.0
 greenlet==3.0.3
@@ -32,7 +30,6 @@ numpy==1.26.4
 openai==1.12.0
 packaging==23.2
 pandas==2.2.0
-pyarrow==15.0.2
 pydantic==2.6.1
 pydantic_core==2.16.2
 pypdf==4.0.1
