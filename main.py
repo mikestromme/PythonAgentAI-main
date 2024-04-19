@@ -8,7 +8,7 @@ from llama_index.tools import QueryEngineTool, ToolMetadata
 from llama_index.agent import ReActAgent
 from llama_index.llms import OpenAI
 from pdf import canada_engine
-from docx import solar_engine
+#from docx import solar_engine ## not working yet
 
 load_dotenv()
 
@@ -36,13 +36,13 @@ tools = [
             description="this gives detailed information about canada the country",
         ),
     ),
-    QueryEngineTool(
-        query_engine=solar_engine,
-        metadata=ToolMetadata(
-            name="solar_data",
-            description="this gives detailed information about canada the country",
-        ),
-    ),
+    # QueryEngineTool(
+    #     query_engine=solar_engine,
+    #     metadata=ToolMetadata(
+    #         name="solar_data",
+    #         description="this gives detailed information about canada the country",
+    #     ),
+    # ),
 ]
 
 llm = OpenAI(model="gpt-3.5-turbo-0613")
